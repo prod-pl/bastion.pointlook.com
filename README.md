@@ -1,2 +1,3 @@
 # bastion.pointlook.com
-bastion
+------------
+bastion terminal server

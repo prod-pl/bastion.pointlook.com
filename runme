@@ -1,0 +1,9 @@
+[ -f ~/.profile ] && . ~/.profile
+
+DATE=$(date)
+PWD=$(pwd)
+
+echo $DATE
+
+[ ! -d node_modules ] && npm install
+forever start $PWD/app.js -p 7000
